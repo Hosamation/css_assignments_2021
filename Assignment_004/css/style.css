@@ -1,0 +1,33 @@
+/* --------------------------------------------------------- */
+/* ------------- Assignment For Lessons 13 - 16 ------------ */
+/* --------------------------------------------------------- */
+
+/* https://elzero.org/css-assignments-lesson-from-13-to-16/  */
+
+.parent .child .title {
+  color: red;
+}
+
+.parent .title {
+  color: blue;
+}
+
+p, .title {
+  color: green;
+}
+
+
+
+.one, .two, .three, .four {
+  padding: 10px;
+  margin: 10px;
+  background-color: #A52A2A;
+  color: white;
+  width: fit-content;
+}
+
+.four {
+  width: 400px;
+  height: 60px;
+  overflow: hidden;
+}

@@ -1,0 +1,129 @@
+/* --------------------------------------------------------- */
+/* ------------- Assignment For Lessons 30 - 33 ------------ */
+/* --------------------------------------------------------- */
+
+/* https://elzero.org/css-assignments-lesson-from-30-to-33/  */
+
+/* Assignment 01 */
+
+.green, .red, .blue, .black {
+  width: 100px;
+  height: 100px;
+  position:absolute;  
+  left: 20px;
+  border: none;
+  padding: 0;
+}
+
+.green {
+  background-color: #009688;
+  top: 40px;
+  left: 40px;
+  z-index: 3;
+}
+
+.red {
+  background-color:#F44336;
+  top: 60px;
+  left: 60px;
+  z-index: 4;
+}
+
+.blue {
+  background-color: #03A9F4;
+  top: 20px;
+  z-index: 2;
+}
+
+.black {
+  background-color: black;
+  top: 40px;
+  z-index: 1;
+}
+
+
+/* Assignment 02 */
+div {
+  width: 400px;
+  position: relative;
+  top: 200px;
+  margin: auto;
+  border: 2px solid #F00;
+  border-color: #F44336 #009688;
+  background-color: #DDD;
+  text-align: center;
+  padding: 20px;
+}
+
+span {
+  background-color: #03A9F4;
+  position: relative;
+}
+
+.top-left, 
+.bottom-left, 
+.top-right, 
+.bottom-right {
+  background-color: #03A9F4;
+  position: absolute;
+  padding: 3px 10px;
+  color: #FFF;
+  border: 1px solid #009688;
+}
+
+.top-left {
+  top: -15px;
+  left: -15px;
+  border-right: 2px solid #F44336;
+}
+
+.bottom-left {
+  bottom: -15px;
+  left: -15px;
+  border-right: 2px solid #F44336;
+}
+
+.top-right {
+  top: -15px;
+  right: -15px;
+  border-left: 2px solid #F44336;
+}
+
+.bottom-right {
+  bottom: -15px;
+  right: -15px;
+  border-left: 2px solid #F44336;
+}
+
+/* Assignment 03 */
+section {
+  position: relative;
+  top: 250px;
+}
+
+.ul1 {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  list-style: none;
+}
+
+.bg-color {
+  background-color: #EEE;
+  margin: 20px;
+  padding: 10px;
+}
+ul li {
+  background-color: #FFF;
+  margin: 5px;
+  padding: 10px;
+}
+
+.upper-roman{
+  list-style-type:upper-roman;
+}
+
+ul ul {
+  list-style-position: inside;
+}
+

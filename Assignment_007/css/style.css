@@ -1,0 +1,66 @@
+/* --------------------------------------------------------- */
+/* ------------- Assignment For Lessons 27 - 29 ------------ */
+/* --------------------------------------------------------- */
+
+/* https://elzero.org/css-assignments-lesson-from-27-to-29/  */
+
+/* Assignment 01 */
+section {
+  margin: 20px auto;
+  padding: 0;
+  width: 800px;
+  background-color: #EEE;
+  text-align: center;
+  font-weight: bold;
+}
+
+.one, .two, .three, .four {
+  overflow: hidden;  
+}
+
+.one div, .two div, .three div, .four div {
+  padding: 15px 0;
+  background-color: #DDD;
+  width: calc((100% - 60px) / 3);
+  margin: 15px 0 0 15px;
+  float: left; 
+}
+
+.one div {
+  width: calc((100% - 30px) / 1);
+}
+
+.three div {
+  width: calc((100% - 45px) / 2);
+}
+
+
+.four div {
+  width: calc((100% - 75px) / 4);
+  margin-bottom: 10px;
+}
+
+
+.clear {
+  clear: both;
+}
+
+
+/* Assignment 02 */
+.normal, .one1, .two2 {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #B3B3B3; /* Get The Background From Image */
+  color: black;
+}
+
+.one1 {
+  background-color: rgb(179 179 179 / 0.1);  
+}
+
+.two2 {
+  opacity: 0.1;
+}

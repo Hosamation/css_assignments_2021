@@ -1,0 +1,63 @@
+/* --------------------------------------------------------- */
+/* ------------- Assignment For Lessons 74 - 77 ------------ */
+/* --------------------------------------------------------- */
+
+/* https://elzero.org/css-assignments-lesson-from-74-to-77/  */
+
+/* Assignment 01 */
+/* div.main.red{
+  color: red;
+  font-weight: bold;
+} */
+
+/* Assignment 02 */
+/* .child + .child {
+  color: red;
+  font-weight: bold;
+} */
+
+/* Assignment 03 */
+/* .baby:only-child {
+  color: red;
+  font-weight: bold;
+} */
+
+/* Assignment 04 */
+/* nth-child(-n + 18):nth-child(n + 7) */
+/* nth-last-child(n + 1):nth-last-child(n + 4) */
+/* nth-of-type(-n + 16):nth-of-type(n + 12) */
+/* nth-last-of-type(n + 1):nth-last-of-type(n + 4)  */
+/* body > div[title]:not(.no-need) {
+  color: red;
+  font-weight: bold;
+} */
+
+/* Assignment 05 */
+/* div:not(.no-need) [title = 'Elzero']:last-child:not(.no-need){
+  color: red;
+  font-weight: bold;
+} */
+
+/* Assignment 06 */
+/* div:not(.no-need) div:nth-last-of-type(2) {
+  color: red;
+  font-weight: bold;
+} */
+
+/* Assignment 07 */
+/* div:first-of-type  div:nth-child(5) */
+/* div:first-of-type  div:nth-last-child(2)  */
+/* div:first-of-type  div:nth-of-type(2) */
+/* div:first-of-type  div:nth-last-of-type(2) */
+/* div:first-of-type  div:nth-last-of-type(2) {
+  color: red;
+  font-weight: bold;
+} */
+
+/* Assignment 08 */
+div div:not(:first-child, :last-child),
+p {
+  color: red;
+  font-weight: bold;
+}
+

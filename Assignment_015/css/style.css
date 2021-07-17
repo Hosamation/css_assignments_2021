@@ -1,0 +1,116 @@
+/* --------------------------------------------------------- */
+/* ------------- Assignment For Lessons 65 - 67 ------------ */
+/* --------------------------------------------------------- */
+
+/* https://elzero.org/css-assignments-lesson-from-65-to-67/  */
+* {
+  box-sizing: border-box;
+}
+
+/* Assignment 01 */
+.task-1 {
+  width: 300px;
+  height: 200px;
+  background-color: #EEE;
+  border: 1px solid #BBB;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #03A9F4;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.task-1::before, .task-1::after{
+  content: '';
+  width: 300px;
+  height: 200px;
+  position: absolute;  
+  z-index: -1;
+}
+
+.task-1::before {
+  background-color: #E91E63;
+  transform: rotate(7deg);
+
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+}
+
+.task-1::after {
+  background: #03A9F4;
+  transform: rotate(-7deg);
+
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+}
+
+
+/* Assignment 02 & 03 */
+.task-2 {
+  width: 200px;
+  height: 200px;
+  background-color: #EEE;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.task-2::before {
+  content: '';
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  border: 10px solid #E91E63;
+  border-left: 10px solid #FFF;
+  transition: all 500ms;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+
+.task-2::after {
+  content: '';
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  position: absolute;
+  border: 10px solid #03A9F4;
+  border-right: 10px solid #FFF;
+  transition: all 500ms ease 500ms;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: all 500ms ease 500ms;
+  -moz-transition: all 500ms ease 500ms;
+  -ms-transition: all 500ms ease 500ms;
+  -o-transition: all 500ms ease 500ms;
+}
+
+.task-2:hover::before {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+.task-2:hover::after {
+  transform: rotate(360deg);
+}

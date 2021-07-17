@@ -1,0 +1,83 @@
+/* --------------------------------------------------------- */
+/* -------------- Assignment For Lessons 1 - 4 ------------- */
+/* --------------------------------------------------------- */
+
+/* https://elzero.org/css-assignments-lesson-from-1-to-4/  */
+
+
+
+
+/* Assignment 01 */
+/* class */
+.title {
+}
+
+/* id */
+#nav {
+}
+
+/* element */
+div {
+}
+
+/* element */
+h2 {
+}
+
+
+/* Assignment 05 */
+
+/* Valid  */
+._user-name {
+}
+
+/* Valid  */
+.-user-name {
+}
+
+/* Valid  */
+.-user-name {
+}
+
+/* Not Valid */
+.1user-name {
+}
+
+/* Not Valid */
+.@user-name {
+}
+
+/* Not Valid */
+.user@name {
+}
+
+/* Valid  */
+._user10name {
+}
+
+/* Valid  */
+.u {
+}
+
+
+/* Assignment 06 */
+
+/* Bad */
+.USERNAME {
+}
+
+/* Bad */
+.UserName {
+}
+
+/* Good */
+.user-name {
+}
+
+/* Bad */
+.userName {
+}
+
+/* Bad */
+.usernameprofile {
+}

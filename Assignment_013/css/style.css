@@ -1,0 +1,59 @@
+/* --------------------------------------------------------- */
+/* ------------- Assignment For Lessons 54 - 56 ------------ */
+/* --------------------------------------------------------- */
+
+/* https://elzero.org/css-assignments-lesson-from-54-to-56/  */
+
+/* Assignment 01 */
+div {
+  width: 600px;
+  height: 80px;
+  background-color: #EEE;
+  margin: 20px auto;
+  font-size: 45px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+  position: relative;  
+  border: 10px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    #F44336 120px,
+    #2196F3 120px,
+    #2196F3 240px,
+    #4CAF50 240px,
+    #4CAF50 360px,
+    #E91E63 360px,
+    #E91E63 480px,
+    #673AB7 480px,
+    #673AB7 500px,
+    #673AB7 620px
+  );
+  border-image-slice: 1;
+}
+
+div::first-letter {
+  color: #F44336;  
+}
+
+/* Assignment 02 */
+input {
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  display: block;
+  border: none;
+  outline: none;
+  background-color: #EEE;
+  font-size: 25px;
+  caret-color: #E91E63;
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    #F44336 50%,
+    #4CAF50 50%
+  );
+  border-image-slice: 1;
+}
+

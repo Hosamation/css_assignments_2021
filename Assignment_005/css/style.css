@@ -1,0 +1,47 @@
+/* --------------------------------------------------------- */
+/* ------------- Assignment For Lessons 17 - 21 ------------ */
+/* --------------------------------------------------------- */
+
+/* https://elzero.org/css-assignments-lesson-from-17-to-21/  */
+
+/* Assignment 01 */
+.shadow {
+  text-shadow: 0.5px 0.5px 0px red , 1px 1px 0px blue , 1.25px 1.25px 0px black;
+}
+
+/* Assignment 02 */
+.one {
+  text-transform: uppercase;
+}
+
+.two {
+  text-transform:capitalize;
+}
+
+.three{
+  text-transform: lowercase;
+}
+
+/* Assignment 03 */
+div {
+  width: 400px;
+  padding: 20px;
+  background-color: #EEE;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Assignment 04 */
+a {
+  text-decoration: none;
+  background-color: #009688;
+  width: 50px;
+  padding: 20px;
+  margin: 20px auto;
+  color: white;
+  text-transform: capitalize;
+  border-bottom: 5px solid #00514A;
+  display: block;
+  text-align: center;  
+}
